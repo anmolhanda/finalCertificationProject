@@ -1,0 +1,11 @@
+{
+    "app": {
+        "port": 8000
+    },
+    "db": {
+        "url":"mongodb://anmolhanda:handa@ds031617.mlab.com:31617/finalproject"
+    },
+    "logs": {
+      "location": "logs"
+    }
+}

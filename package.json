@@ -1,0 +1,23 @@
+{
+  "name": "certification-project-anmol",
+  "version": "1.0.0",
+  "description": "final project to show CRUD operations on Employee using MEAN stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Anmol",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.13.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.3",
+    "morgan": "^1.7.0",
+    "sinon": "1.17.4",
+    "sinon-bluebird": "3.0.1",
+    "underscore": "^1.8.3",
+    "winston": "^2.2.0",
+    "mongoose": "^4.6.1"
+  }
+}
