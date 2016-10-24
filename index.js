@@ -6,7 +6,7 @@ var Response = require("./app/response.js");
 var db = require('./db.js');
 var logger = require("./logger");
 var fs = require('fs');
-var PORT = config.app.port;
+var PORT =  process.env.PORT ||config.app.port;
 var app = express();
 
 var router = express.Router();
